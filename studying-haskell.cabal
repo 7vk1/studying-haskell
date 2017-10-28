@@ -17,6 +17,7 @@ library
   hs-source-dirs:      src
   exposed-modules:     Wiki_99_Questions.Problem1
                      , Wiki_99_Questions.Problem2
+                     , Wiki_99_Questions.Problem3
                      , Lib
   build-depends:       base >= 4.7 && < 5
   default-language:    Haskell2010

@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2017-10-28 18:29:46.2734211 UTC
+2017-10-28 19:04:33.360253 UTC
 
 interface main@main:Wiki_99_Questions.Problem1Spec 8002
-  interface hash: ecf3090d3c83c2f640db5a7cae351519
-  ABI hash: f99a80a14ca4fcf94b508b546ff236f7
+  interface hash: 8d791e0d083fe5a86b44b994e4767794
+  ABI hash: 4ad19a5b0ad51f72d73edb3a2bb8b2c9
   export-list hash: 5a6e1e2f9c4923ab45e5aa73f9e9f09e
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 3040f0b0e91196d5217ea26148de298c
@@ -86,7 +86,7 @@ f215e35b9e0516121bb0f4ae3b0f9210
   $trModule2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "main"#) -}
-17a55c69330ea2cbfd6ad02149b22f86
+3277e83b45dd211be42d4819eeed6c18
   spec :: Test.Hspec.Core.Spec.Monad.Spec
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
@@ -99,7 +99,7 @@ f215e35b9e0516121bb0f4ae3b0f9210
                           (Sym (Control.Monad.Trans.Writer.Lazy.N:WriterT[0]
                                     <[Test.Hspec.Core.Tree.SpecTree ()]>_N <GHC.Types.IO>_R <()>_N))
                           (Sym (Test.Hspec.Core.Spec.Monad.N:SpecM[0] <()>_N) <()>_N))) -}
-f52c0aa850a86529ed0c4c3ac2bfbd78
+d4da09c991f7a76f9073dd4dd21401a5
   spec1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld,
@@ -164,7 +164,7 @@ f64009bad44a0b4397782a2a88338643
 94d989c6e9ef33d0e875525648020620
   spec19 :: GHC.Types.Char
   {- HasNoCafRefs, Unfolding: (GHC.Types.C# 'e'#) -}
-4b688194d086f52afee71fd6a092ec78
+81a1a5cd66a8974381ab6bf08a52a577
   spec2 :: ((), [Test.Hspec.Core.Tree.SpecTree ()])
   {- Unfolding: ((GHC.Tuple.(),
                   Wiki_99_Questions.Problem1Spec.spec3)) -}
@@ -224,7 +224,7 @@ a0014c11af55e0aa3791f83b3cd698e1
   spec29 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    "test\\Wiki_99_Questions\\Problem1Spec.hs"#) -}
-fcdf748d301cdcefc7ec83bfc06c12a5
+617b84f498e4d0bc56e7afe8a8dbc3f7
   spec3 ::
     [Test.Hspec.Core.Tree.Tree
        (Test.Hspec.Core.Example.ActionWith ())
@@ -245,7 +245,7 @@ fe170cf20de904602015ac10f2536ec9
 955406f6cac3be92b089759666443233
   spec32 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "shouldBe"#) -}
-6274ebfd7af9f78c955c605723995f4e
+057c8cc83717f6e4d4ddd05837e23698
   spec33 :: GHC.Base.Maybe Test.Hspec.Core.Example.Location
   {- Unfolding: (case GHC.List.reverse1
                         @ (GHC.Base.String, GHC.Stack.Types.SrcLoc)
@@ -265,35 +265,35 @@ fe170cf20de904602015ac10f2536ec9
                            (case loc of wild1 { GHC.Stack.Types.SrcLoc ds4 ds5 ds3 ds6 ds7 ds8 ds9 ->
                             ds7 })
                            Test.Hspec.Core.Example.ExactLocation) } }) -}
-89d3e1a886908d060524bcc36e299423
+3ef35423c338985e3cbf68cdec645d8e
   spec34 :: [([GHC.Types.Char], GHC.Stack.Types.SrcLoc)]
   {- Unfolding: (Data.CallStack.$wunsafeDrop
                    @ ([GHC.Types.Char], GHC.Stack.Types.SrcLoc)
                    1#
                    Wiki_99_Questions.Problem1Spec.spec35) -}
-a24e72284273f99b022bda1d7eec45d7
+90fc6c4f2e23b9707611691a60e2229e
   spec35 :: [([GHC.Types.Char], GHC.Stack.Types.SrcLoc)]
   {- Unfolding: (GHC.Stack.Types.getCallStack
                    Wiki_99_Questions.Problem1Spec.spec36) -}
-85f874b8487b0f72f2e80e08f69ce4be
+2e0a0cb6f62d134bf61639bdd878ce8a
   spec36 :: GHC.Stack.Types.CallStack
   {- Unfolding: (GHC.Stack.Types.PushCallStack
                    Test.Hspec.Core.Tree.specItem9
                    Test.Hspec.Core.Tree.specItem2
                    Wiki_99_Questions.Problem1Spec.spec37) -}
-f3352fa45d8189a8d38ec5eaeeee10dd
+59010ef65788bae38fd67ed79a69fac4
   spec37 :: GHC.Stack.Types.CallStack
   {- Unfolding: (GHC.Stack.Types.PushCallStack
                    Test.Hspec.Core.Spec.it9
                    Test.Hspec.Core.Spec.it2
                    Wiki_99_Questions.Problem1Spec.spec38) -}
-aaa99663ed1dd2cfb74e041ce0895017
+d6110892ba94e88b873c06debd28d17c
   spec38 :: GHC.Stack.Types.CallStack
   {- Unfolding: (GHC.Stack.Types.PushCallStack
                    Wiki_99_Questions.Problem1Spec.spec42
                    Wiki_99_Questions.Problem1Spec.spec39
                    GHC.Stack.Types.EmptyCallStack) -}
-4937230b99d3fa6e219ef99d1a7244c2
+b674968610664e6ff0bd08b17286f4d1
   spec39 :: GHC.Stack.Types.SrcLoc
   {- Unfolding: (GHC.Stack.Types.SrcLoc
                    Wiki_99_Questions.Problem1Spec.spec31
@@ -303,7 +303,7 @@ aaa99663ed1dd2cfb74e041ce0895017
                    Wiki_99_Questions.Problem1Spec.spec41
                    Wiki_99_Questions.Problem1Spec.spec27
                    Wiki_99_Questions.Problem1Spec.spec40) -}
-a7588c910d2a92278a00e29d36d88fc0
+636daa53f034a6850323f97818ac7b53
   spec4 ::
     [Test.Hspec.Core.Tree.Tree
        (Test.Hspec.Core.Example.ActionWith ())
@@ -317,25 +317,25 @@ a7588c910d2a92278a00e29d36d88fc0
                       @ (Test.Hspec.Core.Tree.Tree
                            (Test.Hspec.Core.Example.ActionWith ())
                            (Test.Hspec.Core.Tree.Item ())))) -}
-1a27a32cae1fdb57a68a4b69cb53aa07
+2cceb051bdb7c23bb0e1967de82c6b28
   spec40 :: GHC.Types.Int
-  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 42#) -}
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 50#) -}
 1f444d973969849ff98bb2b7bb2f4703
   spec41 :: GHC.Types.Int
   {- HasNoCafRefs, Unfolding: (GHC.Types.I# 9#) -}
 5bba27698213cecc7d8386744b79cc5a
   spec42 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "it"#) -}
-6e948653a2cb154d791ab7ee4ebe4f73
+f7630a458e3c2a2b11266a501c245754
   spec43 :: [GHC.Types.Char]
   {- Unfolding: (GHC.Types.:
                    @ GHC.Types.Char
                    Wiki_99_Questions.Problem1Spec.spec45
                    Wiki_99_Questions.Problem1Spec.spec44) -}
-ac6cd05c9b87128d5f826c1f573935ff
+6c2172142318f9a997b00b2f199f3592
   spec44 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
-                   "yLast ['H','e','l','l','o']"#) -}
+                   "yLast ['H','e','l','l','o'] -> 'o' "#) -}
 f77e1afe441c3c0b37855889c3b99023
   spec45 :: GHC.Types.Char
   {- HasNoCafRefs, Unfolding: (GHC.Types.C# 'm'#) -}
@@ -351,7 +351,7 @@ b4f6dda22869e8f4e4183bdfc3500ae2
 38255e6eb0de5e82ee05ddc34c58c66a
   spec48 :: GHC.Types.Char
   {- HasNoCafRefs, Unfolding: (GHC.Types.C# 'T'#) -}
-dc2f835c38586bc57512e811dbd28899
+6f568527fefd448fa89577a7978aeaec
   spec49 ::
     Test.Hspec.Core.Tree.Tree
       (Test.Hspec.Core.Example.ActionWith ())
@@ -359,7 +359,7 @@ dc2f835c38586bc57512e811dbd28899
   {- Unfolding: (Test.Hspec.Core.Tree.Node
                    @ (Test.Hspec.Core.Example.ActionWith ())
                    @ (Test.Hspec.Core.Tree.Item ())
-                   Wiki_99_Questions.Problem1Spec.spec80
+                   Wiki_99_Questions.Problem1Spec.spec81
                    Wiki_99_Questions.Problem1Spec.spec50
                      `cast`
                    ([(Test.Hspec.Core.Tree.Tree
@@ -367,7 +367,7 @@ dc2f835c38586bc57512e811dbd28899
                          ->_R <GHC.Types.IO ()>_R)
                         (Test.Hspec.Core.Tree.Item
                            (Sub (Test.Hspec.Core.Example.D:R:ArgIO[0])))_R)_R])_R) -}
-247767b75c45b9864b6658e5e523780f
+b8514e23d2e8a9320369f1c0ccf91a8a
   spec5 ::
     Test.Hspec.Core.Tree.Tree
       (Test.Hspec.Core.Example.ActionWith ())
@@ -383,7 +383,7 @@ dc2f835c38586bc57512e811dbd28899
                          ->_R <GHC.Types.IO ()>_R)
                         (Test.Hspec.Core.Tree.Item
                            (Sub (Test.Hspec.Core.Example.D:R:ArgIO[0])))_R)_R])_R) -}
-cb73cab1ca660097fc3ca15afcfce40e
+a819a974f425d0f0cf75edba18b4224f
   spec50 ::
     [Test.Hspec.Core.Tree.SpecTree
        (Test.Hspec.Core.Example.Arg Test.Hspec.Expectations.Expectation)]
@@ -395,7 +395,7 @@ cb73cab1ca660097fc3ca15afcfce40e
                       @ (Test.Hspec.Core.Tree.SpecTree
                            (Test.Hspec.Core.Example.Arg
                               Test.Hspec.Expectations.Expectation)))) -}
-8035e01f7aa6940667458739d1e6cf0c
+5500283de1b67cfbaf557bdb03e31b17
   spec51 ::
     Test.Hspec.Core.Tree.Tree
       (Test.Hspec.Core.Example.ActionWith
@@ -408,14 +408,14 @@ cb73cab1ca660097fc3ca15afcfce40e
                    @ (Test.Hspec.Core.Tree.Item
                         (Test.Hspec.Core.Example.Arg Test.Hspec.Expectations.Expectation))
                    Wiki_99_Questions.Problem1Spec.spec52) -}
-88b27984227b8a96d53c8fa5655cf823
+baee1eecd037f9714807ebb214861c08
   spec52 ::
     Test.Hspec.Core.Tree.Item
       (Test.Hspec.Core.Example.Arg Test.Hspec.Expectations.Expectation)
   {- Unfolding: (Test.Hspec.Core.Tree.Item
                    @ (Test.Hspec.Core.Example.Arg Test.Hspec.Expectations.Expectation)
-                   Wiki_99_Questions.Problem1Spec.spec78
-                   Wiki_99_Questions.Problem1Spec.spec70
+                   Wiki_99_Questions.Problem1Spec.spec79
+                   Wiki_99_Questions.Problem1Spec.spec71
                    GHC.Types.False
                    Wiki_99_Questions.Problem1Spec.spec53
                      `cast`
@@ -428,7 +428,7 @@ cb73cab1ca660097fc3ca15afcfce40e
                                   <Data.Either.Either
                                      GHC.Exception.SomeException
                                      Test.Hspec.Core.Example.Result>_R))) -}
-5c9dca6d50e318bfd24e9cd2bd4168f6
+1bf3f679de74455c186d6c617953237c
   spec53 ::
     Test.Hspec.Core.Example.Params
     -> (Test.Hspec.Core.Example.ActionWith
@@ -457,7 +457,7 @@ cb73cab1ca660097fc3ca15afcfce40e
                         (Sym (Test.Hspec.Core.Example.N:Example[0]
                                   <Test.Hspec.Expectations.Expectation>_N)))
                    Wiki_99_Questions.Problem1Spec.spec54) -}
-8143db5c99ca1266eb5b2bff2f56a257
+bc2905d92e3e099e27c2637f68847ce0
   spec54 :: Test.HUnit.Lang.Assertion
   {- Unfolding: (Wiki_99_Questions.Problem1Spec.spec64
                    (GHC.Types.[] @ GHC.Types.Char)
@@ -499,7 +499,7 @@ cd853a6511934784481fa0894998e19b
                    @ GHC.Integer.Type.Integer
                    Wiki_99_Questions.Problem1Spec.spec60
                    (GHC.Types.[] @ GHC.Integer.Type.Integer)) -}
-b2c7c091ee62504a75bb154111c92859
+b1ff4f9b9a59a09fb9136a1cfe458ba4
   spec6 ::
     [Test.Hspec.Core.Tree.SpecTree
        (Test.Hspec.Core.Example.Arg Test.Hspec.Expectations.Expectation)]
@@ -523,7 +523,7 @@ a38b0e401917ec5e9001f4c8e5a140ae
 480164449c2e9452e6c51a55104d5991
   spec63 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (1) -}
-757054508ddcb1a25bda99d984fc3032
+07cdda73163f3f3e13325377445c5c0a
   spec64 ::
     GHC.Base.String
     -> GHC.Integer.Type.Integer
@@ -537,38 +537,38 @@ a38b0e401917ec5e9001f4c8e5a140ae
                              <"callStack">_N <GHC.Stack.Types.CallStack>_N))
                    GHC.Integer.Type.$fEqInteger
                    GHC.Show.$fShowInteger) -}
-6729961c0efb4aafa8961a57f5689fd7
+78f90307f75527ca0a07b4831a735d02
   spec65 :: GHC.Stack.Types.CallStack
   {- Unfolding: (GHC.Stack.Types.PushCallStack
                    Test.HUnit.Base.@=?5
                    Test.HUnit.Base.@?=1
                    Wiki_99_Questions.Problem1Spec.spec66) -}
-f5f784578ae4673f3373e5c7a0c77c27
+9b0e9178c25370d64ac14874c34395c3
   spec66 :: GHC.Stack.Types.CallStack
   {- Unfolding: (GHC.Stack.Types.PushCallStack
                    Test.Hspec.Expectations.shouldBe5
                    Test.Hspec.Expectations.shouldBe1
                    Wiki_99_Questions.Problem1Spec.spec67) -}
-dd4f26336a1e5386c375a318f5554dba
+2befb289b877ddfc3a220bff1c7ef248
   spec67 :: GHC.Stack.Types.CallStack
   {- Unfolding: (GHC.Stack.Types.PushCallStack
                    Wiki_99_Questions.Problem1Spec.spec32
                    Wiki_99_Questions.Problem1Spec.spec68
                    GHC.Stack.Types.EmptyCallStack) -}
-7827fc63a6e75a7e2d60234547d59fa5
+58421dedb932580de70dc85109b72ef1
   spec68 :: GHC.Stack.Types.SrcLoc
   {- Unfolding: (GHC.Stack.Types.SrcLoc
                    Wiki_99_Questions.Problem1Spec.spec31
                    Wiki_99_Questions.Problem1Spec.spec30
                    Wiki_99_Questions.Problem1Spec.spec29
-                   Wiki_99_Questions.Problem1Spec.spec69
+                   Wiki_99_Questions.Problem1Spec.spec70
                    Wiki_99_Questions.Problem1Spec.spec27
-                   Wiki_99_Questions.Problem1Spec.spec69
-                   Wiki_99_Questions.Problem1Spec.spec40) -}
-8145db521ca7d5e8c10ad5b5d1a494fb
+                   Wiki_99_Questions.Problem1Spec.spec70
+                   Wiki_99_Questions.Problem1Spec.spec69) -}
+867477a77406f42ea0748078f2b87d54
   spec69 :: GHC.Types.Int
-  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 10#) -}
-c03da3042587eb150d776b8c4396f32d
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 42#) -}
+9ced257c830949d606c907326e09e2fa
   spec7 ::
     Test.Hspec.Core.Tree.Tree
       (Test.Hspec.Core.Example.ActionWith
@@ -581,11 +581,14 @@ c03da3042587eb150d776b8c4396f32d
                    @ (Test.Hspec.Core.Tree.Item
                         (Test.Hspec.Core.Example.Arg Test.Hspec.Expectations.Expectation))
                    Wiki_99_Questions.Problem1Spec.spec8) -}
-5d6bd3e0f858062b9c534c941a25402f
-  spec70 :: GHC.Base.Maybe Test.Hspec.Core.Example.Location
+363930c67717740a1d78b4c94c7d6ff1
+  spec70 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 10#) -}
+afa964af95b2e594336c7a46a3aaa56a
+  spec71 :: GHC.Base.Maybe Test.Hspec.Core.Example.Location
   {- Unfolding: (case GHC.List.reverse1
                         @ (GHC.Base.String, GHC.Stack.Types.SrcLoc)
-                        Wiki_99_Questions.Problem1Spec.spec71
+                        Wiki_99_Questions.Problem1Spec.spec72
                         (GHC.Types.[]
                            @ (GHC.Base.String, GHC.Stack.Types.SrcLoc)) of wild {
                    [] -> GHC.Base.Nothing @ Test.Hspec.Core.Example.Location
@@ -598,36 +601,36 @@ c03da3042587eb150d776b8c4396f32d
                            (GHC.Stack.Types.srcLocStartLine loc)
                            (GHC.Stack.Types.srcLocStartCol loc)
                            Test.Hspec.Core.Example.ExactLocation) } }) -}
-71e02ea91bddc0c532196814610207ba
-  spec71 :: [([GHC.Types.Char], GHC.Stack.Types.SrcLoc)]
+1a6110f188798d02b1b6faf55f70c512
+  spec72 :: [([GHC.Types.Char], GHC.Stack.Types.SrcLoc)]
   {- Unfolding: (Data.CallStack.$wunsafeDrop
                    @ ([GHC.Types.Char], GHC.Stack.Types.SrcLoc)
                    1#
-                   Wiki_99_Questions.Problem1Spec.spec72) -}
-abc4da4170b66fda077a91c5bb690d47
-  spec72 :: [([GHC.Types.Char], GHC.Stack.Types.SrcLoc)]
-  {- Unfolding: (GHC.Stack.Types.getCallStack
                    Wiki_99_Questions.Problem1Spec.spec73) -}
-e9cc421be8dd052010566514cb49ff92
-  spec73 :: GHC.Stack.Types.CallStack
+4bb0488622ac3129ba586d9ac4be1bd3
+  spec73 :: [([GHC.Types.Char], GHC.Stack.Types.SrcLoc)]
+  {- Unfolding: (GHC.Stack.Types.getCallStack
+                   Wiki_99_Questions.Problem1Spec.spec74) -}
+14735709749e726b10727da6cb92fc73
+  spec74 :: GHC.Stack.Types.CallStack
   {- Unfolding: (GHC.Stack.Types.PushCallStack
                    Test.Hspec.Core.Tree.specItem9
                    Test.Hspec.Core.Tree.specItem2
-                   Wiki_99_Questions.Problem1Spec.spec74) -}
-9e1d1dd2563fa69687434d023455f6c5
-  spec74 :: GHC.Stack.Types.CallStack
+                   Wiki_99_Questions.Problem1Spec.spec75) -}
+79d9a245f3e44c9006b292859d66aa54
+  spec75 :: GHC.Stack.Types.CallStack
   {- Unfolding: (GHC.Stack.Types.PushCallStack
                    Test.Hspec.Core.Spec.it9
                    Test.Hspec.Core.Spec.it2
-                   Wiki_99_Questions.Problem1Spec.spec75) -}
-d4292c36ac1f6626820ad6740eacfb83
-  spec75 :: GHC.Stack.Types.CallStack
+                   Wiki_99_Questions.Problem1Spec.spec76) -}
+085f86c6d0bb9f09b0091e029e7e4f44
+  spec76 :: GHC.Stack.Types.CallStack
   {- Unfolding: (GHC.Stack.Types.PushCallStack
                    Wiki_99_Questions.Problem1Spec.spec42
-                   Wiki_99_Questions.Problem1Spec.spec76
+                   Wiki_99_Questions.Problem1Spec.spec77
                    GHC.Stack.Types.EmptyCallStack) -}
-92fcfb13ad332e4d9cbd654199c0c3e0
-  spec76 :: GHC.Stack.Types.SrcLoc
+1a8271451a033795c7eb3c8b971d4ab4
+  spec77 :: GHC.Stack.Types.SrcLoc
   {- Unfolding: (GHC.Stack.Types.SrcLoc
                    Wiki_99_Questions.Problem1Spec.spec31
                    Wiki_99_Questions.Problem1Spec.spec30
@@ -635,20 +638,17 @@ d4292c36ac1f6626820ad6740eacfb83
                    Wiki_99_Questions.Problem1Spec.spec41
                    Wiki_99_Questions.Problem1Spec.spec41
                    Wiki_99_Questions.Problem1Spec.spec41
-                   Wiki_99_Questions.Problem1Spec.spec77) -}
-d137013072a2df8c10eaa639a16eff9e
-  spec77 :: GHC.Types.Int
-  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 30#) -}
-0773be0f36bad9a46a97cc32e5ad202f
-  spec78 :: [GHC.Types.Char]
+                   Wiki_99_Questions.Problem1Spec.spec78) -}
+a34df35ddd3b5b1fe120a8007a7f4420
+  spec78 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 36#) -}
+b6749a50abdee6657d26eda19ae83820
+  spec79 :: [GHC.Types.Char]
   {- Unfolding: (GHC.Types.:
                    @ GHC.Types.Char
                    Wiki_99_Questions.Problem1Spec.spec45
-                   Wiki_99_Questions.Problem1Spec.spec79) -}
-dff99cf7fec10a89d7d117108eeba686
-  spec79 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString# "yLast [1,2,3,4]"#) -}
-e874a7078f22b092fde74b0d2355b20a
+                   Wiki_99_Questions.Problem1Spec.spec80) -}
+adf57568133fd516e644b4a809ca7a24
   spec8 ::
     Test.Hspec.Core.Tree.Item
       (Test.Hspec.Core.Example.Arg Test.Hspec.Expectations.Expectation)
@@ -668,14 +668,18 @@ e874a7078f22b092fde74b0d2355b20a
                                   <Data.Either.Either
                                      GHC.Exception.SomeException
                                      Test.Hspec.Core.Example.Result>_R))) -}
-0d3d27f1d343b625c8495326d0de8837
+a7356203e5cfb17610f87fedbd69b2b9
   spec80 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "yLast [1,2,3,4] -> 4 "#) -}
+29fc1bd4dc1695cebb71b5cccbb7b9f5
+  spec81 :: [GHC.Types.Char]
   {- Unfolding: (GHC.Types.:
                    @ GHC.Types.Char
                    Wiki_99_Questions.Problem1Spec.spec48
-                   Wiki_99_Questions.Problem1Spec.spec81) -}
-f9eef891c3c7ba8f48f08ff44ccd5ecc
-  spec81 :: [GHC.Types.Char]
+                   Wiki_99_Questions.Problem1Spec.spec82) -}
+a5c34af19d34a8d0b2bbc52fef7bdfe1
+  spec82 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "est 1"#) -}
 def4c08aac250b95efd90a9385556168
   spec9 ::
